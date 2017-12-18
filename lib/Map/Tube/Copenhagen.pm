@@ -47,7 +47,7 @@ of type L<Map::Tube::Route>. On error it throws exception of type L<Map::Tube::E
     use Map::Tube::Copenhagen;
 
     my $tube  = Map::Tube::Copenhagen->new;
-    my $route = $tube->get_shortest_route('A', 'D');
+    my $route = $tube->get_shortest_route('Flintholm', 'Kastrup');
 
     print "Route: $route\n";;
 
