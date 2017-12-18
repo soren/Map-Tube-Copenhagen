@@ -14,6 +14,8 @@ $Map::Tube::Copenhagen::AUTHORITY = 'cpan:SLU';
 
 </p>
 
+=end html
+
 =head1 NAME
 
 Map::Tube::Copenhagen - Interface to the Copenhagen Metro map
