@@ -1,7 +1,18 @@
 package Map::Tube::Copenhagen;
 
-$Map::Tube::Copenhagen::VERSION   = '0.01';
+$Map::Tube::Copenhagen::VERSION   = '0.02';
 $Map::Tube::Copenhagen::AUTHORITY = 'cpan:SLU';
+
+=begin html
+
+<p>
+    <a href="https://travis-ci.org/soren/Map-Tube-Copenhagen"><img
+        src="https://travis-ci.org/soren/Map-Tube-Copenhagen.svg?branch=master"/></a>
+
+    <a href="https://metacpan.org/release/Map-Tube-Copenhagen"><img
+        src="https://img.shields.io/cpan/v/Map-Tube-Copenhagen.svg"/></a>
+
+</p>
 
 =head1 NAME
 
