@@ -4,4 +4,6 @@
 /Makefile.old
 /Map-Tube-Copenhagen-*.tar.gz
 /blib/
+/cover_db/
 /pm_to_blib
+/.travis.yml
