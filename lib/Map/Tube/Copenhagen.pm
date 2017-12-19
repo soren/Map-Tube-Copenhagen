@@ -10,6 +10,8 @@ $Map::Tube::Copenhagen::AUTHORITY = 'cpan:SLU';
         src="https://travis-ci.org/soren/Map-Tube-Copenhagen.svg?branch=master"/></a>
     <a href="https://coveralls.io/github/soren/Map-Tube-Copenhagen?branch=master"><img
         src="https://coveralls.io/repos/github/soren/Map-Tube-Copenhagen/badge.svg?branch=master"/></a>
+    <a href="https://metacpan.org/release/Map-Tube-Copenhagen"><img
+        src="https://badge.fury.io/pl/Map-Tube-Copenhagen.svg"/></a>
 </p>
 
 =end html
