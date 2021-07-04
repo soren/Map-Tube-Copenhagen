@@ -4,7 +4,9 @@
 		"line":
 		[
 			{ "id": "m1", "name": "M1" },
-			{ "id": "m2", "name": "M2" }
+			{ "id": "m2", "name": "M2" },
+            { "id": "m3", "name": "M3" },
+            { "id": "m4", "name": "M4" }
 		]
 	},
 	"stations": {
@@ -13,10 +15,10 @@
 			{ "id": "flintholm", "name": "Flintholm", "line": "m1,m2", "link": "vanlose,lindevang" },
 			{ "id": "lindevang", "name": "Lindevang", "line": "m1,m2", "link": "flintholm,fasanvej" },
 			{ "id": "fasanvej", "name": "Fasanvej (Solbjerg)", "line": "m1,m2", "link": "lindevang,frederiksberg" },
-			{ "id": "frederiksberg", "name": "Frederiksberg", "line": "m1,m2", "link": "fasanvej,forum" },
+			{ "id": "frederiksberg", "name": "Frederiksberg", "line": "m1,m2,m3", "link": "fasanvej,forum,akselmollershave,frederiksbergalle" },
 			{ "id": "forum", "name": "Forum", "line": "m1,m2", "link": "frederiksberg,norreport" },
 			{ "id": "norreport", "name": "Nørreport", "line": "m1,m2", "link": "forum,kongensnytorv" },
-			{ "id": "kongensnytorv", "name": "Kongens Nytorv", "line": "m1,m2", "link": "norreport,christianshavn" },
+			{ "id": "kongensnytorv", "name": "Kongens Nytorv", "line": "m1,m2,m3,m4", "link": "norreport,christianshavn,marmorkirken,gammelstrand" },
 			{ "id": "christianshavn", "name": "Christianshavn", "line": "m1,m2", "link": "kongensnytorv,islandsbrygge,amagerbro" },
 			{ "id": "islandsbrygge", "name": "Islands Brygge", "line": "m1", "link": "christianshavn,drbyen" },
 			{ "id": "drbyen", "name": "DR Byen (Universitetet)", "line": "m1", "link": "islandsbrygge,sundby" },
@@ -30,7 +32,24 @@
 			{ "id": "amagerstrand", "name": "Amager Strand", "line": "m2", "link": "oresund,femoren" },
 			{ "id": "femoren", "name": "Femøren", "line": "m2", "link": "amagerstrand,kastrup" },
 			{ "id": "kastrup", "name": "Kastrup", "line": "m2", "link": "femoren,lufthavnen" },
-			{ "id": "lufthavnen", "name": "Lufthavnen (Københavns Lufthavn, Kastrup)", "line": "m2", "link": "kastrup" }
-		]
+			{ "id": "lufthavnen", "name": "Lufthavnen (Københavns Lufthavn, Kastrup)", "line": "m2", "link": "kastrup" },
+			{ "id": "akselmollershave", "name": "Aksel Møllers Have", "line": "m3", "link": "frederiksberg,nuuksplads" },
+			{ "id": "frederiksbergalle", "name": "Frederiksberg Allé", "line": "m3", "link": "frederiksberg,enghaveplads" },
+            { "id": "nuuksplads", "name": "Nuuks Plads", "line": "m3", "link": "akselmollershave,norrebrosrundel" },
+            { "id": "norrebrosrundel", "name": "Nørrebros Runddel", "line": "m3", "link": "nuuksplads,norrebro" },
+            { "id": "norrebro", "name": "Nørrebro", "line": "m3", "link": "norrebrosrundel,skjoldsplads" },
+            { "id": "skjoldsplads", "name": "Skjolds Plads", "line": "m3", "link": "norrebro,vibenhusrundel" },
+            { "id": "vibenhusrundel", "name": "Vibenhus Runddel", "line": "m3", "link": "skjoldsplads,poulhenningsensplads" },
+            { "id": "poulhenningsensplads", "name": "Poul Henningsens Plads", "line": "m3", "link": "vibenhusrundel,trianglen" },
+            { "id": "trianglen", "name": "Trianglen", "line": "m3", "link": "poulhenningsensplads,osterport" },
+            { "id": "osterport", "name": "Østerport", "line": "m3,m4", "link": "trianglen,marmorkirken" },
+            { "id": "marmorkirken", "name": "Marmorkirken", "line": "m3,m4", "link": "osterport,kongensnytorv" },
+            { "id": "gammelstrand", "name": "Gammel Strand", "line": "m3,m4", "link": "kongensnytorv,raadhuspladsen" },
+            { "id": "raadhuspladsen", "name": "Rådhus Pladsen", "line": "m3,m4", "link": "gammelstrand,kobenhavnh" },
+            { "id": "kobenhavnh", "name": "Københavns Hovedbanegård", "line": "m3,m4", "link": "raadhuspladsen,enghaveplads" },
+            { "id": "enghaveplads", "name": "Enghave Plads", "line": "m3", "link": "frederiksbergalle,kobenhavnh" },
+            { "id": "nordhavn", "name": "Nordhavn", "line": "m4", "link": "osterport,orientkaj" },
+            { "id": "orientkaj", "name": "Orientkaj", "line": "m4", "link": "nordhavn" }
+        ]
 	}
 }
